@@ -194,8 +194,7 @@ will need to store for use elsewhere in the application.
 
 2.  Add the following code to `config.js`:
 
-    **Note:** This code can be copied from <http://bit.ly/CC17-OAuth-Snippets>.
-    Look for `Lab4_1_config.js`.
+    **Note:** This code can also be copied from [`Lab4_1_config.js`](https://github.com/ServiceNowEvents/K17-CCW3959-code/blob/master/Lab4_1_config.js).
 
     ```javascript
     var config = {};  
@@ -254,7 +253,7 @@ initialize Passport in `server.js`.
 
 3.  Add the following code after the comment block.
 
-    **Note:** This code can be copied from <http://bit.ly/CC17-OAuth-Snippets>.
+    **Note:** This code can also be copied from [`Lab4_2_server_js_initialize_passport.js`](https://github.com/ServiceNowEvents/K17-CCW3959-code/blob/master/Lab4_2_server_js_initialize_passport.js).
 
     ```javascript
     // Set up Passport  
@@ -319,7 +318,7 @@ sent by ServiceNow and use it to retrieve an Access Token.
 
 3.  Add the following code after the comment block:
 
-    **Note:** This code can be copied from http://bit.ly/CC17-OAuth-Snippets.
+    **Note:** This code can also be copied from [`Lab4_3_server_js_add_routes.js`](https://github.com/ServiceNowEvents/K17-CCW3959-code/blob/master/Lab4_3_server_js_add_routes.js)``].
 
     ```javascript
     // Passport Routes  
@@ -377,7 +376,7 @@ Basic Auth. In this lab, you will update the code in `taskDispatcher.js` and
 3.  Replace the first four lines of the `getTasks` method with the following
     code:
 
-    **Note:** This code can be copied from https://bit.ly/CC17-OAuth-Snippets.
+    **Note:** This code can also be copied from [`Lab5_1_taskDispatcher_js_four_lines.js`](https://github.com/ServiceNowEvents/K17-CCW3959-code/blob/master/Lab5_1_taskDispatcher_js_four_lines.js).
 
     ```javascript
     var session = serverRequest.session;
@@ -420,8 +419,7 @@ Basic Auth. In this lab, you will update the code in `taskDispatcher.js` and
     }
     ```
 
-Complete versions of all files can be found at
-https://bit.ly/CC17-OAuth-Snippets.
+Complete versions of all files can be found at <https://github.com/ServiceNowEvents/K17-CCW3959-code>.
 
 ## Test the updated code
 
